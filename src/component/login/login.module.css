@@ -1,10 +1,10 @@
 .form__style {
-    margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 .email__id {
-    margin-left: -12rem;
+    display: flex;
     color: #6f767b;
     font-size: 12px;
 }
@@ -14,12 +14,11 @@
     width: 80%;
     border-radius: 1rem;
     border: 1px solid #bec1c4;
-    margin-left: -4.5rem;
     padding: .375rem .75rem;
 }
 
 .password__style {
-    margin-right: 21rem;
+    display: flex;
     color: #6f767b;
     font-size: 12px;
 }
@@ -29,35 +28,33 @@
     width: 80%;
     border: 1px solid #ced4da;
     border-radius: 1rem;
-    margin-left: -4.5rem;
     padding: .375rem .75rem;
 }
 
 
 .forget__style {
-    position: absolute;
-    top: 20rem;
-    left: 3rem;
+    display: flex;
+    flex-flow: row-reverse;
     color: #6f767b;
     font-size: 12px;
 }
 
 .btn__login {
-    width: 50%;
-    padding: .5rem;
+    padding: 1rem 2rem;
     border: 0;
     background: #485867;
     color: #fff;
     border-radius: 5px;
-    margin-top: 5rem;
 }
 
 .link__style {
-    position: absolute;
-    top: 29.5rem;
     color: #6f767b;
-    left: 8.5rem;
-    font-size: 11px;
+    font-size: 12px;
+}
+
+.head__toggle{
+    flex-direction: row;
+    display: inline-flex;
 }
 
 .field_container {
@@ -79,63 +76,55 @@
 }
 
 .name__id__two {
-    margin-right: 11.5rem;
-    color: #6f767b;
-    font-size: 10px;
-}
-
-.email__id__two {
-    margin-right: 13.5rem;
-    color: #6f767b;
-    font-size: 10px;
-}
-
-.gender__id__two {
-    margin-right: 13rem;
-    color: #6f767b;
-    font-size: 10px;
-}
-
-.mobile__id__two {
-    margin-right: 10.5rem;
-    color: #6f767b;
-    font-size: 10px;
-}
-
-.email__input__two {
-    height: calc(1.5em + .75rem + 2px);
-    width: 80%;
-    border-radius: .3rem;
-    border: 1px solid #bec1c4;
-    margin-left: 1rem;
-    padding: .375rem .75rem;
-}
-
-.password__style__two {
-    margin-right: 12rem;
-    color: #6f767b;
-    font-size: 10px;
-}
-
-.pass__input__two {
-    height: calc(1.5em + .75rem + 2px);
-    width: 80%;
-    border: 1px solid #ced4da;
-    border-radius: .3rem;
-    margin-left: 1rem;
-    padding: .375rem .75rem;
-}
-
-
-.forget__style {
-    margin-left: 14rem;
+    display: flex;
     color: #6f767b;
     font-size: 12px;
 }
 
+.email__id__two {
+    display: flex;
+    color: #6f767b;
+    font-size: 12px;
+}
+
+.gender__id__two {
+    display: flex;
+    color: #6f767b;
+    font-size: 12px;
+}
+
+.mobile__id__two {
+    display: flex;
+    color: #6f767b;
+    font-size: 12px;
+}
+
+.email__input__two {
+    height: calc(1.5em + .75rem + 2px);
+    width: 100%;
+    border-radius: .3rem;
+    border: 1px solid #bec1c4;
+    display: flex;
+    padding: .375rem .75rem;
+}
+
+.password__style__two {
+    display: flex;
+    color: #6f767b;
+    font-size: 12px;
+}
+
+.pass__input__two {
+    height: calc(1.5em + .75rem + 2px);
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: .3rem;
+    display: flex;
+    padding: .375rem .75rem;
+}
+
 .btn__register {
-    width: 50%;
-    padding: .5rem;
+    padding: 1rem 2rem;
     border: 0;
     background: #485867;
     color: #fff;
@@ -144,78 +133,45 @@
 }
 
 .link__style__two {
-    position: absolute;
-    top: 34.5rem;
     color: #6f767b;
-    left: 8.5rem;
     font-size: 11px;
+}
+
+@media (max-width: 784px){
+    .head__toggle{
+        width: max-content;
+    }
 }
 
 
 @media (max-width: 768px){
     .email__id {
-        margin-left: -20.5rem;
+        display: flex;
         font-size: 100%;
     }
 
     .password__style {
-        margin-left: -6rem;
         font-size: 100%;
-    }
-
-    .email__input{
-        width: 100%;
-        padding: 5rem 5rem;
     }
 
     .forget__style {
         font-size: 100%;
-        margin-top: .9rem;
-        left: 15rem;
     }
 
     .link__style {
         font-size: 100%;
-        top: 32.5rem;
-        left: 16rem;
-    }
-
-    .head__toggle {
-        margin-left: 5rem;
     }
 
     .head__toggle div p{
-        font-size: 150%;
+        font-size: 100%;
     }
 
     .name__id__two,.email__id__two,.gender__id__two,.mobile__id__two,.password__style__two{
         font-size: 100%;
-        margin-left: -15rem;
-    }
-
-    .name__id__two{
-        margin-left: -14rem;
-    }
-
-    .mobile__id__two{
-        margin-left: -13rem;
-    }
-
-    .email__input__two,.pass__input__two{
-        margin-left: -0rem;
-        width: 100%;
     }
 
     .link__style__two {
         font-size: 100%;
-        left: 21rem;
-        margin-top: 3.5rem;
-        margin-left: -6rem;
-    }
-
-    .btn__login,.btn__register{
-        width: 100%;
-        padding: 5% 0%;
     }
 
     .field_error{
@@ -224,82 +180,8 @@
 
 }
 
-@media (max-width: 649px){
-    .email__id {
-        margin-left: -19rem;
-    }
-
-    .password__style {
-        margin-left: -4.5rem;
-    }
-
-    .forget__style {
-        left: 11rem;
-    }
-
+@media (max-width: 324px){
     .head__toggle{
-        margin-left: 3rem;
+        width: max-content;
     }
-
-    .link__style {
-        left: 11rem;
-    }
-
-    .name__id__two,.email__id__two,.gender__id__two,.mobile__id__two,.password__style__two{
-        font-size: 100%;
-        margin-left: -13.5rem;
-    }
-
-    .name__id__two{
-        margin-left: -12rem;
-    }
-
-    .mobile__id__two{
-        margin-left: -12rem;
-    }
-
-    .link__style__two {
-        margin-left: -9rem;
-    }
-
-}
-
-@media (max-width: 550px){
-    .email__id {
-        margin-left: -13.5rem;
-    }
-
-    .password__style {
-        margin-left: -0rem;
-    }
-
-    .forget__style {
-        left: 5rem;
-    }
-
-    .head__toggle{
-        margin-left: 1rem;
-    }
-
-    .link__style {
-        left: 8rem;
-    }
-
-    .name__id__two,.email__id__two,.gender__id__two,.mobile__id__two,.password__style__two{
-        font-size: 100%;
-        margin-left: -7.5rem;
-    }
-
-    .name__id__two{
-        margin-left: -6.5rem;
-    }
-
-    .mobile__id__two{
-        margin-left: -5.5rem;
-    }
-
-    .link__style__two {
-        margin-left: -12rem;
-    }
-
 }

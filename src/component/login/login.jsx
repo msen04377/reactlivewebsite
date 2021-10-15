@@ -56,12 +56,12 @@ const Login = () => {
     }
 
     return (
-        <div className="card col-12 col-sm-12 col-md-12">
+        <div className="card col-12 col-sm-12 col-md-9">
             <div className="card-body">
                 <div className="container">
-                    <div className="col-md-12 ml-4 mt-3">
-                    <div className={styles.head__toggle}>
-                        <div className="row ml-5">
+                    <div className="col-md-12">
+                        <div className={styles.head__toggle}>
+                            <div className="row">
                                 <p onClick={onShowLogin}>Login</p>
                                 <p onClick={onShowRegister} className="ml-5">Register</p>
                             </div>
@@ -96,10 +96,12 @@ const Login = () => {
                                         </div>
                                         <a href="http://" className={styles.forget__style}>Forget Password</a>
                                     </div>
-                                    <button type="submit" className={styles.btn__login}>Login</button>
-                                    <label for="exampleInputPassword1" className={styles.link__style}>Not a memeber yet?
-                                        <a onClick={onShowRegister} className="text-primary">Register</a>
-                                    </label>
+                                    <div className="d-flex flex-column">
+                                        <button type="submit" className={styles.btn__login}><span>Login</span></button>
+                                        <label for="exampleInputPassword1" className={styles.link__style}>Not a memeber yet?
+                                            <a onClick={onShowRegister} className="text-primary">Register</a>
+                                        </label>
+                                    </div>
                                 </div>
                             </form>
                         </div>
@@ -129,10 +131,12 @@ const Login = () => {
                                     <label for="exampleInputPassword1" className={styles.password__style__two}>Password</label>
                                     <input type="password" className={styles.pass__input__two} id="exampleInputPassword1" />
                                 </div>
-                                <button type="submit" className={styles.btn__register}>Register</button>
-                                <label for="exampleInputPassword1" className={styles.link__style__two}>Not a memeber yet?
-                                    <a onClick={onShowLogin} className="text-primary">Login</a>
-                                </label>
+                                <div className="d-flex flex-column">
+                                    <button type="submit" className={styles.btn__register}>Register</button>
+                                    <label for="exampleInputPassword1" className={styles.link__style__two}>Not a memeber yet?
+                                        <a onClick={onShowLogin} className="text-primary">Login</a>
+                                    </label>
+                                </div>
                             </div>
                         </form>
                     }
