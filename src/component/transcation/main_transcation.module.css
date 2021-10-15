@@ -1,0 +1,32 @@
+.CashBackEarned{
+    background-color: rgb(236, 236, 236);
+    color: grey;
+    font-size: 9px;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+.CashBackEarned__img{
+    margin-left: .3rem;
+}
+
+.btn__view{
+    margin-left: 6rem;
+}
+
+.btn__view > button{
+    background-color: #485867;
+    border-radius: 10px;
+}
+
+@media (max-width:768px){
+    .btn__view{
+        margin-left: 17rem;
+    }
+}
+
+@media (max-width:440px){
+    .btn__view{
+        margin-left: 6rem;
+    }
+}

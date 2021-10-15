@@ -1,0 +1,31 @@
+.btn__view{
+    margin-left: 16rem;
+    border-radius: 8px;
+    border: 0;
+    background-color: #485867;    ;
+    color: white;
+    padding: 8px 40px;
+    margin-bottom: 2rem;
+}
+
+.CashBackEarned{
+    background-color: rgb(236, 236, 236);
+    color: grey;
+    font-size: 9px;
+    padding: 5px 15px;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.CashBackEarned__img{
+    margin-left: .3rem;
+}
+
+
+/* ====================Mobile Responsive=================== */
+
+ @media only screen and (max-width: 600px) {
+    .btn__view{
+        margin-left: 5rem;
+    }
+ }

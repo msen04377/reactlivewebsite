@@ -1,0 +1,113 @@
+.search_input{
+    border: 0;
+    height: 30px;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin-left: -2rem;
+    border-radius: 30px;
+    width: 640px;
+    border: 1px solid grey;
+}
+
+.search_btn{
+    margin-left: -2rem;
+    color: grey;
+}
+
+.div {   
+    height: 30px;
+    width: 250px;
+    margin: 0 auto;
+    background: transparent;
+    border-radius: 80px;
+    border: 1px solid grey;
+  }
+  
+.div div {
+    width: 50%;
+    height: 100%;
+    border-radius: 80px ;
+  }
+  
+.div div:hover {
+    background: grey;
+  }
+  
+.right {
+    float: right;
+    color: grey;
+    margin-right: -2px;
+   border-top-left-radius: 0 !important;
+   border-bottom-left-radius: 0 !important;
+  }
+.right:hover {
+    background: #FFFFFF;
+  }
+.left {
+    float: left;
+    color: #fff;
+    background-color:#485867;
+    margin-right: -2px;
+   border-top-right-radius: 0 !important;
+   border-bottom-right-radius: 0 !important;
+  }
+  
+.left:hover {
+    background: #FFFFFF;
+  }
+
+.vendor__header{
+    font-size: 14px;
+}
+
+.camera{
+    background-color: rgb(224, 223, 223);
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.camera__text{
+    font-size: 12px;
+}
+
+.vendor_Img__style{
+    position: relative;
+    left: 7rem;
+    top: 0rem;
+    background-color: grey;
+    color: black;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.card_Img__style{
+    position: relative;
+    left: -8rem;
+    top: 0rem;
+    background-color: rgb(197, 196, 196);
+    color: black;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+
+/* =============mobile================== */
+
+@media (max-width: 768px) {
+  .search_input{
+    display: none;
+  }
+
+  .search_btn{
+    display: none;
+}
+
+  .vendor_Img__style{
+    display: none;
+}
+
+  .card_Img__style{
+    display: none;
+  }
+   
+}

@@ -1,0 +1,90 @@
+.content {
+  background-color:#f6f6f6;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  display: flex;
+  /* width: 80%; */
+  margin-left: 12rem;
+  margin-top: -57.5rem;
+}
+
+.main__vendor {
+  margin-top: 34rem;
+}
+
+.dashboard__tranc{
+  margin-top: -16rem;
+}
+
+.main__sale__wallet {
+  margin-top: 34rem;
+  margin-left: .5rem;
+}
+
+.cashback {
+  margin-top: -18rem;
+  margin-left: .5rem;
+}
+
+.main_cash {
+  position: absolute;
+  left: 14.5rem;
+  top: 52.5rem;
+}
+
+.main_transcation {
+  position: absolute;
+  left: 61.5rem;
+  top: 41.5rem;
+}
+
+.dashboard__wallet {
+  position: absolute;
+  left: 61.5rem;
+  top: 20rem;
+}
+
+.dashboard__sale {
+  position: absolute;
+  left: 61.5rem;
+  top: 8rem;
+}
+
+
+/* ====================Mobile Responsive=================== */
+@media (min-width: 1024px){
+  .content{
+    height: auto;
+    width: 1155px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .content{
+    height: auto;
+    width: 766px;
+    margin-left: 0rem;
+  }
+
+  .main__vendor{
+    margin-top: 64rem;
+  }
+
+  .main__sale__wallet{
+    margin-top: 1rem;
+  }
+
+  .dashboard__tranc{
+    margin-top: 1rem;
+  }
+}
+
+
+@media (max-width: 440px){
+  .content{
+      width: 440px;
+  }
+}

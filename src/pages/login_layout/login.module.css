@@ -1,0 +1,88 @@
+.bg{
+    background-color: #192b3f;
+    height: auto;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    width: 1366px;
+}
+
+.login__flex{
+    display: flex;
+}
+
+.login{
+    margin-top: 3rem;
+    margin-bottom: 5.5rem;
+    margin-left: 13rem;
+}
+
+.lorem__text{
+    font-size: 12px;
+}
+
+/* ====================Mobile Responsive=================== */
+@media (min-width: 1024){
+    .bg{
+        background-color: red;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .bg {
+        width: 100%;
+        height: auto;
+    }
+
+    .loginBg{
+        height: auto;
+  		width: 80%;
+  		max-width: 100%;
+  	 	align-items: center;
+    }
+
+    .login__flex{
+        display: block;
+    }
+
+    .login{
+        margin-top: 10rem;
+        margin-left: 0rem;
+        margin-bottom: 5rem;
+    }
+
+    .login__content h2{
+        font-size: 200%;
+    }
+
+    .lorem__text{
+        font-size: 120%;
+    }
+
+  }
+
+@media (max-width: 549px){
+    .bg{
+        width: 100%;
+    }
+
+    .login > div{
+        margin-right: -1.3rem;
+    }
+}  
+
+@media (max-width: 545px){
+    .bg {
+        width: 545px;
+        height: auto;
+    }
+    .lorem__text{
+        position: relative;
+        left: -2rem;
+    } 
+    .login__content h2{
+        position: relative;
+        left: -2rem;
+    }
+}

@@ -1,0 +1,33 @@
+.content{
+  background-color: rgb(240, 240, 240);
+    height: 1300px;
+    width: 1141px;
+    margin: 0;
+    position: absolute;
+    top: -25rem;
+    left: 13rem;
+    z-index: -1;
+}
+
+.hover__link > ul > li:hover{
+ background-color: #485867;
+ width: 85.5%;
+}
+
+.hover__link > ul > li > a:hover{
+  color: #fff !important;
+ }
+
+ /* ====================Mobile Responsive=================== */
+
+@media only screen and (max-width: 768px) {
+  .sidebar__objects{
+    display: none;
+  }
+
+  .content{
+      width: 728px;
+      left: 0rem;
+  }
+} 
+
