@@ -29,22 +29,20 @@ const Dashboard = () => {
                                             <div className="col-12 col-sm-12 col-md-12">
                                                 <Sale />      
                                             </div>
-                                            <div className="col-12 col-sm-12 col-md-12 mt-3">
+                                            <div className="col-12 col-sm-12 col-md-12 mt-5">
                                                 <Wallet />
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="row">
+                            <div className="row mt-5">
                                 <div className="col-12 col-md-8 py-3">
                                     <MainCash />
                                 </div>
                                 <div className="col-12 col-md-4">
                                     <div className={styles.dashboard__tranc}>
-                                        <div className="col-12 col-sm-12 col-md-12">
                                             <MainTranscation />
-                                        </div>
                                     </div>
                                 </div>
                             </div>

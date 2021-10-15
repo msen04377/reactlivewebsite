@@ -19,6 +19,15 @@
     border-radius: 10px;
 }
 
+@media (min-width: 1024px){
+    .btn__view{
+        margin-left: 1rem;
+        flex: auto;
+        display: flex;
+        justify-content: center;
+    }
+}
+
 @media (max-width:768px){
     .btn__view{
         margin-left: 17rem;

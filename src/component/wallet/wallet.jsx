@@ -10,16 +10,16 @@ const Wallet = () => {
         <div class="card col-12 col-sm-12 col-md-12">
             <div className="row">
                 <div className="container-fluid">
-                    <div className="col-12 col-md-12 mt-1 py-3">
+                    <div className="col-12 col-md-12 mt-1">
                         <span className={styles.wallet}>wallet</span>
                         <img src={wallet2} alt="" width={25} height={25} className={styles.wallet2} />
                     </div>
                     <div className="col-12 col-md-12 mt-1">
                         <div className={styles.wallet__img}>
-                            <img src={wallet} alt="" width={300} width={300} />
+                            <img src={wallet} alt="" width={280} width={280} />
                             <div className={styles.wallet__content}>
                                 <div className="row mt-5">
-                                    <img src={chip} alt="" width={40} height={40} className={styles.chip__img} />
+                                    <img src={chip} alt="" width={35} height={35} className={styles.chip__img} />
                                 </div>
                                 <div className="row ml-3 text-white">
                                     <div className="ml-5">
@@ -29,12 +29,12 @@ const Wallet = () => {
                                     </div>
                                 </div>
                                 <div className="row text-white">
-                                    <div className="col-6 col-lg-6">
+                                    <div className="col-6 col-md-6 col-lg-6">
                                         <div className={styles.wallet__contact}>
                                             <span>Akash batista</span> <br /> <small>09876543210</small>
                                         </div>
                                     </div>
-                                    <div className="col-6 col-lg-6 text-white">
+                                    <div className="col-6 col-md-6 col-lg-6 text-white">
                                         <div className={styles.wallet__contact2}>
                                             <img src={calender} alt="" width={25} height={25} className={styles.calender__img}
                                              /> <br />

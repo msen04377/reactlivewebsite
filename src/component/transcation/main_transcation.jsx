@@ -16,7 +16,6 @@ const MainTranscation = () => {
                         {/* <img src={} alt="" className={styles.CashBackEarned__img}/> */}
                     </div>
                 </div>
-                <div className="col-12 col-sm-12 col-md-12">
                     <div className="row">
                         <div className="col-12 col-sm-6 col-md-12">
                             <Transcation />
@@ -41,7 +40,6 @@ const MainTranscation = () => {
                             <Transcation />
                         </div>
                     </div>
-                </div>
                 <div className="row py-3">
                     <div className={styles.btn__view}>
                         <button className="text-white border-0 px-5 py-2"><span>
